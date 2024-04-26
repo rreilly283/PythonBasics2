@@ -6,4 +6,4 @@ qa_environment:
 dev_environment:
   URL: "www.google-dev.com"
   username: johndoe123
-  password: $StrongPassWord@2024
+  password: $StrongPassWord@202
