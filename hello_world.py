@@ -1,0 +1,6 @@
+print("Hello World!")
+print(124444)
+print('helloo class')
+print(123 + 2334)
+print(123*200)
+print(3000/3)

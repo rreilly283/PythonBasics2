@@ -1,0 +1,9 @@
+qa_environment:
+  URL: "www.google-qa.com"
+  username: johndoe123
+  password: $StrongPassWord@2024
+
+dev_environment:
+  URL: "www.google-dev.com"
+  username: johndoe123
+  password: $StrongPassWord@2024
