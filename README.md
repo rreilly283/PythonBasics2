@@ -42,7 +42,12 @@ tail -f /var/log/applogfile.log|grep johnd22
 
 
 ### One time git actions in the project:
--Initializing the git repository:
+-When you join the team and you need to start working with existing project you to clone (download) the project to your local PC. Go to the right folder and copy the HTTPS link of the existing github repository:
+shell
+cd /c/dev/temp
+git clone https://github.com/rreilly283/PythonBasics2.git
+
+-Initializing the git repository if you are starting brand new project:
 (open the project > Eanble VCS)
 by default it creates repository
 
@@ -71,3 +76,16 @@ git config -- global user.email "john@leveleupacademy.tech"
 -Logs(pycharm git > Log window shows this)
 git log
 
+-Pushing the changes and all commits to the Server (github - cloud) to shae with everyone
+PyCharm > Git > Git Push
+Manage remote: set origin:main
+Origin: https://github.com/rreilly283/PythonBasics2.git
+connection: master -> origin: main
+```git 
+git push
+```
+
+- Project will have some changes from other collaborators/qa engineers so you need to get the updates from gitHub. This change particularly needs to be pulled first even though you have commits on your local repository.
+
+- Branching: creating the local or remote brances to work on your own draft/copy/task. You will name your branch and branch will be created base on current branch, then new branch and current branch becomes independent copies of the project. Usually when new branch is created git will automatically swith to new branch (checkou to new branch)
+- Switching to existing branch is called Checkout. YOu can easily switch between branches in Pycharm
