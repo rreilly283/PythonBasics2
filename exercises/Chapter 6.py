@@ -19,7 +19,7 @@ cities = {
         'fact': 'historical'
 }
 }
-#print(f"New York has 9 mln population and located in USA, fun fact about: 'Big Apple'")
+#printf(f"New York has 9 mln population and located in USA, fun fact about: 'Big Apple'")
 print(f"{list(cities.keys())[0]} has {cities['New York']['population']} population and located in {cities ['New York']['country']}, fun fact about: '{cities['New York']['fact']}")
 
 print("-----access with looping------")
