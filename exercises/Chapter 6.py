@@ -15,7 +15,7 @@ cities = {
     },
     'Rome': {
         'population': '3 mln',
-        'country': 'Italy',
+        'country': 'Italy d',
         'fact': 'historical'
 }
 }
